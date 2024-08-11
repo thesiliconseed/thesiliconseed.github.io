@@ -1,0 +1,805 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../patterns/">
+      
+      
+        <link rel="next" href="../grind/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Blind 75 - The Silicon Seed</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="The Silicon Seed" class="md-header__button md-logo" aria-label="The Silicon Seed" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Silicon Seed
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blind 75
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="The Silicon Seed" class="md-nav__button md-logo" aria-label="The Silicon Seed" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    The Silicon Seed
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patterns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Patterns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Blind 75
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grind/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grind 75
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Blind 75</h1>
+
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Problem (<em>links for leetcode</em>)</th>
+<th>Neetcode</th>
+<th>Striver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://leetcode.com/problems/two-sum/?envType=list&amp;envId=xi4ci4ig" target="_blank">Two Sum</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/?envType=list&amp;envId=xi4ci4ig" target="_blank">Longest Substring Without Repeating Characters</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://leetcode.com/problems/longest-palindromic-substring/?envType=list&amp;envId=xi4ci4ig" target="_blank">Longest Palindromic Substring</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://leetcode.com/problems/container-with-most-water/?envType=list&amp;envId=xi4ci4ig" target="_blank">Container With Most Water</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://leetcode.com/problems/3sum/?envType=list&amp;envId=xi4ci4ig" target="_blank">3Sum</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=list&amp;envId=xi4ci4ig" target="_blank">Remove Nth Node From End of List</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://leetcode.com/problems/valid-parentheses/?envType=list&amp;envId=xi4ci4ig" target="_blank">Valid Parentheses</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://leetcode.com/problems/merge-two-sorted-lists/?envType=list&amp;envId=xi4ci4ig" target="_blank">Merge Two Sorted Lists</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://leetcode.com/problems/merge-k-sorted-lists/?envType=list&amp;envId=xi4ci4ig" target="_blank">Merge k Sorted Lists</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/?envType=list&amp;envId=xi4ci4ig" target="_blank">Search in Rotated Sorted Array</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://leetcode.com/problems/combination-sum/?envType=list&amp;envId=xi4ci4ig" target="_blank">Combination Sum</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://leetcode.com/problems/rotate-image/?envType=list&amp;envId=xi4ci4ig" target="_blank">Rotate Image</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://leetcode.com/problems/group-anagrams/?envType=list&amp;envId=xi4ci4ig" target="_blank">Group Anagrams</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://leetcode.com/problems/maximum-subarray/?envType=list&amp;envId=xi4ci4ig" target="_blank">Maximum Subarray</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://leetcode.com/problems/spiral-matrix/?envType=list&amp;envId=xi4ci4ig" target="_blank">Spiral Matrix</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://leetcode.com/problems/jump-game/?envType=list&amp;envId=xi4ci4ig" target="_blank">Jump Game</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://leetcode.com/problems/merge-intervals/?envType=list&amp;envId=xi4ci4ig" target="_blank">Merge Intervals</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://leetcode.com/problems/insert-interval/?envType=list&amp;envId=xi4ci4ig" target="_blank">Insert Interval</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://leetcode.com/problems/unique-paths/?envType=list&amp;envId=xi4ci4ig" target="_blank">Unique Paths</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://leetcode.com/problems/climbing-stairs/?envType=list&amp;envId=xi4ci4ig" target="_blank">Climbing Stairs</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://leetcode.com/problems/set-matrix-zeroes/?envType=list&amp;envId=xi4ci4ig" target="_blank">Set Matrix Zeroes</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://leetcode.com/problems/minimum-window-substring/?envType=list&amp;envId=xi4ci4ig" target="_blank">Minimum Window Substring</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://leetcode.com/problems/word-search/?envType=list&amp;envId=xi4ci4ig" target="_blank">Word Search</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://leetcode.com/problems/decode-ways/?envType=list&amp;envId=xi4ci4ig" target="_blank">Decode Ways</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://leetcode.com/problems/validate-binary-search-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Validate Binary Search Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://leetcode.com/problems/same-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Same Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=list&amp;envId=xi4ci4ig" target="_blank">Binary Tree Level Order Traversal</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Maximum Depth of Binary Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/?envType=list&amp;envId=xi4ci4ig" target="_blank">Construct Binary Tree from Preorder and Inorder Traversal</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=list&amp;envId=xi4ci4ig" target="_blank">Best Time to Buy and Sell Stock</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=list&amp;envId=xi4ci4ig" target="_blank">Binary Tree Maximum Path Sum</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td><a href="https://leetcode.com/problems/valid-palindrome/?envType=list&amp;envId=xi4ci4ig" target="_blank">Valid Palindrome</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td><a href="https://leetcode.com/problems/longest-consecutive-sequence/?envType=list&amp;envId=xi4ci4ig" target="_blank">Longest Consecutive Sequence</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td><a href="https://leetcode.com/problems/clone-graph/?envType=list&amp;envId=xi4ci4ig" target="_blank">Clone Graph</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td><a href="https://leetcode.com/problems/word-break/?envType=list&amp;envId=xi4ci4ig" target="_blank">Word Break</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td><a href="https://leetcode.com/problems/linked-list-cycle/?envType=list&amp;envId=xi4ci4ig" target="_blank">Linked List Cycle</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td><a href="https://leetcode.com/problems/reorder-list/?envType=list&amp;envId=xi4ci4ig" target="_blank">Reorder List</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td><a href="https://leetcode.com/problems/maximum-product-subarray/?envType=list&amp;envId=xi4ci4ig" target="_blank">Maximum Product Subarray</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=list&amp;envId=xi4ci4ig" target="_blank">Find Minimum in Rotated Sorted Array</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td><a href="https://leetcode.com/problems/reverse-bits/?envType=list&amp;envId=xi4ci4ig" target="_blank">Reverse Bits</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>41</td>
+<td><a href="https://leetcode.com/problems/number-of-1-bits/?envType=list&amp;envId=xi4ci4ig" target="_blank">Number of 1 Bits</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>42</td>
+<td><a href="https://leetcode.com/problems/house-robber/?envType=list&amp;envId=xi4ci4ig" target="_blank">House Robber</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>43</td>
+<td><a href="https://leetcode.com/problems/number-of-islands/?envType=list&amp;envId=xi4ci4ig" target="_blank">Number of Islands</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>44</td>
+<td><a href="https://leetcode.com/problems/reverse-linked-list/?envType=list&amp;envId=xi4ci4ig" target="_blank">Reverse Linked List</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>45</td>
+<td><a href="https://leetcode.com/problems/course-schedule/?envType=list&amp;envId=xi4ci4ig" target="_blank">Course Schedule</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>46</td>
+<td><a href="https://leetcode.com/problems/implement-trie-prefix-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Implement Trie (Prefix Tree)</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>47</td>
+<td><a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/?envType=list&amp;envId=xi4ci4ig" target="_blank">Design Add and Search Words Data Structure</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>48</td>
+<td><a href="https://leetcode.com/problems/word-search-ii/?envType=list&amp;envId=xi4ci4ig" target="_blank">Word Search II</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>49</td>
+<td><a href="https://leetcode.com/problems/house-robber-ii/?envType=list&amp;envId=xi4ci4ig" target="_blank">House Robber II</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>50</td>
+<td><a href="https://leetcode.com/problems/contains-duplicate/?envType=list&amp;envId=xi4ci4ig" target="_blank">Contains Duplicate</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>51</td>
+<td><a href="https://leetcode.com/problems/invert-binary-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Invert Binary Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>52</td>
+<td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/?envType=list&amp;envId=xi4ci4ig" target="_blank">Kth Smallest Element in a BST</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>53</td>
+<td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Lowest Common Ancestor of a Binary Search Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>54</td>
+<td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Lowest Common Ancestor of a Binary Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>55</td>
+<td><a href="https://leetcode.com/problems/product-of-array-except-self/?envType=list&amp;envId=xi4ci4ig" target="_blank">Product of Array Except Self</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>56</td>
+<td><a href="https://leetcode.com/problems/valid-anagram/?envType=list&amp;envId=xi4ci4ig" target="_blank">Valid Anagram</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>57</td>
+<td><a href="https://leetcode.com/problems/meeting-rooms/?envType=list&amp;envId=xi4ci4ig" target="_blank">Meeting Rooms</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>58</td>
+<td><a href="https://leetcode.com/problems/meeting-rooms-ii/?envType=list&amp;envId=xi4ci4ig" target="_blank">Meeting Rooms II</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>59</td>
+<td><a href="https://leetcode.com/problems/graph-valid-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Graph Valid Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>60</td>
+<td><a href="https://leetcode.com/problems/missing-number/?envType=list&amp;envId=xi4ci4ig" target="_blank">Missing Number</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>61</td>
+<td><a href="https://leetcode.com/problems/alien-dictionary/?envType=list&amp;envId=xi4ci4ig" target="_blank">Alien Dictionary</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>62</td>
+<td><a href="https://leetcode.com/problems/encode-and-decode-strings/?envType=list&amp;envId=xi4ci4ig" target="_blank">Encode and Decode Strings</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>63</td>
+<td><a href="https://leetcode.com/problems/find-median-from-data-stream/?envType=list&amp;envId=xi4ci4ig" target="_blank">Find Median from Data Stream</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>64</td>
+<td><a href="https://leetcode.com/problems/longest-increasing-subsequence/?envType=list&amp;envId=xi4ci4ig" target="_blank">Longest Increasing Subsequence</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>65</td>
+<td><a href="https://leetcode.com/problems/coin-change/?envType=list&amp;envId=xi4ci4ig" target="_blank">Coin Change</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>66</td>
+<td><a href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/?envType=list&amp;envId=xi4ci4ig" target="_blank">Number of Connected Components in an Undirected Graph</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>67</td>
+<td><a href="https://leetcode.com/problems/counting-bits/?envType=list&amp;envId=xi4ci4ig" target="_blank">Counting Bits</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>68</td>
+<td><a href="https://leetcode.com/problems/top-k-frequent-elements/?envType=list&amp;envId=xi4ci4ig" target="_blank">Top K Frequent Elements</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>69</td>
+<td><a href="https://leetcode.com/problems/sum-of-two-integers/?envType=list&amp;envId=xi4ci4ig" target="_blank">Sum of Two Integers</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>70</td>
+<td><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/?envType=list&amp;envId=xi4ci4ig" target="_blank">Pacific Atlantic Water Flow</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>71</td>
+<td><a href="https://leetcode.com/problems/longest-repeating-character-replacement/?envType=list&amp;envId=xi4ci4ig" target="_blank">Longest Repeating Character Replacement</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>72</td>
+<td><a href="https://leetcode.com/problems/non-overlapping-intervals/?envType=list&amp;envId=xi4ci4ig" target="_blank">Non-overlapping Intervals</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>73</td>
+<td><a href="https://leetcode.com/problems/serialize-and-deserialize-bst/?envType=list&amp;envId=xi4ci4ig" target="_blank">Serialize and Deserialize BST</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>74</td>
+<td><a href="https://leetcode.com/problems/subtree-of-another-tree/?envType=list&amp;envId=xi4ci4ig" target="_blank">Subtree of Another Tree</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>75</td>
+<td><a href="https://leetcode.com/problems/palindromic-substrings/?envType=list&amp;envId=xi4ci4ig" target="_blank">Palindromic Substrings</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+<tr>
+<td>76</td>
+<td><a href="https://leetcode.com/problems/longest-common-subsequence/?envType=list&amp;envId=xi4ci4ig" target="_blank">Longest Common Subsequence</a></td>
+<td>youtube.com</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
